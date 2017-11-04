@@ -1,0 +1,26 @@
+body {
+	background-color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#logoImage {
+  float: left;
+  zoom: 75%;
+  margin-left: 35%;
+}
+
+h1 {
+  float:right;
+  margin-right: 35%;
+  color: white;
+}
+
+#borderLine {
+    border-bottom: solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	padding-top: 40px;
+	padding-bottom: -30px;
+}
