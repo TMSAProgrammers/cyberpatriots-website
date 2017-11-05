@@ -1,4 +1,5 @@
 // JavaScript Document
+
 function snackbar() {
     // Get the snackbar DIV
     var x = document.getElementById("snackbar")
@@ -8,4 +9,17 @@ function snackbar() {
 
     // After 3 seconds, remove the show class from DIV
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+
+function check(form)
+{
+ if(form.userid.value == "tmsa" && form.pswrd.value == "cyberpatriots")
+  {
+    window.open('home.html');
+  }
+ else
+ {
+   alert("Wrong login, please try again.");
+ }
 }
