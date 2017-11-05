@@ -8,36 +8,42 @@
 			TMSACP Calendar
 		</title>
 		
-		<link rel="stylesheet" type="text/css" href="CSS/site_css.css">
+		<link rel="stylesheet" type="text/css" href="CSS/calendar.css">
 		
 	</head>
 	
 	
-	<body>
+  <body>
+    
+	<!-- Menu -->
+	<div class="navBar">
+		<a href="index.html">
+			<button class = "button">Home</button>
+		</a>
+		<a href="calendar.html">
+			<button class = "button">Calendar</button>
+		</a>
+		<a href="members.html">
+			<button class = "button">Members</button>
+		</a>
+	</div>
+
+
+  	
 	
-			<!-- Menu -->
-			<div class="navBar">
-				<a href="calendar.html">
-					<button class = "button">Calendar</button>
-				</a>
-			</div>
-	
-			<!-- Border divider -->
-			<div id="borderLine"> </div>
+	<!-- Intro -->
+	<center id="Intro">
+			<img src="Images\tmsacyberpatriots_logo.png" alt="TMSA/CyberPatriots logo" id="logoImage"></img>
+			<h1 id = "heading">TMSA<br>CyberPatriots</h1>
+	</center>
 			
-			<!-- Intro -->
-			<center id = "Intro">
-					<img id="logoImage" src="Images\tmsacyberpatriots_logo.png" alt="TMSA/CyberPatriots logo"></img>
-					<h1 id = "Title">TMSA<br>CyberPatriots</h1>
-			</center>
-			
-			<!-- Payload -->
-			<center>
-				<iframe 
-					src="https://calendar.google.com/calendar/embed?title=Cyber%20Patriots&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=tmsacademy.org_s73ekirah8he39m2lsbfbsrbds%40group.calendar.google.com&amp;color=%235F6B02&amp;src=tmsacademy.org_vvgko0g8hle395b6ibhahkfd9g%40group.calendar.google.com&amp;color=%23333333&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no">
-				style = "padding-top: 10%;"
-				</iframe>
-			</center>
+	<!-- Payload -->
+	<center>
+		<iframe 
+			src="https://calendar.google.com/calendar/embed?title=Cyber%20Patriots&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=tmsacademy.org_s73ekirah8he39m2lsbfbsrbds%40group.calendar.google.com&amp;color=%235F6B02&amp;src=tmsacademy.org_vvgko0g8hle395b6ibhahkfd9g%40group.calendar.google.com&amp;color=%23333333&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" id="calendar">
+
+		</iframe>
+	</center>
 			
 	</body>
 	
