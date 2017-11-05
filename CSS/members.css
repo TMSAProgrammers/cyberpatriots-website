@@ -16,13 +16,6 @@ h1 {
   color: white;
 }
 
-#calendar{
-	align-content: center;
-	align-self: center;
-	padding-top: 10px;
-	
-}
-
 #Title {
 	font-size: 48px;
 }
@@ -35,6 +28,16 @@ h1 {
 #Intro {
 	padding-top: 5%;
 	padding-right: 0px;
+	
+}
+#list{
+	color:#064489;
+	align-content: center;
+}
+.center{
+    width:1000px;
+    margin:0 auto;
+    text-align:left;
 }
 
 .blanktext{
@@ -73,3 +76,4 @@ h1 {
 	color: black;
 	border: 1px solid white;
 }
+
