@@ -7,8 +7,13 @@ body {
 	margin-bottom: 10px;
 	color: white;
 }
+#aes_div {
+	color: white;
+	border-bottom: solid;
+}
+
 #payload{
-	color: #064489;
+	color: white;
 	font-size: 20px;
 	padding-top: 10%;
 	margin-top: auto;
@@ -35,7 +40,7 @@ body {
 
 
 .button {
-	background-color: #064489; /* Scheme blue*/
+    background-color: #064489; /* Scheme blue*/
     border: none;
     color: white;
     padding: 16px 32px;
