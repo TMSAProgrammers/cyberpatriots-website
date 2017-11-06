@@ -1,8 +1,8 @@
 // JavaScript Document
 
 function snackbar() {
-    // Get the snackbar DIV
-    var x = document.getElementById("snackbar")
+    // Get the snackbar DIV ew
+    var x = document.getElementById("snackbar");
 
     // Add the "show" class to DIV
     x.className = "show";
@@ -16,7 +16,7 @@ function check(form)
 {
  if(form.userid.value == "tmsa" && form.pswrd.value == "cyberpatriots")
   {
-    window.open('home.html');
+    window.location.replace("home.html");
   }
  else
  {
