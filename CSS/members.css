@@ -5,32 +5,23 @@ body {
 	color: white;
 }
 
-#logoImage {
-	zoom: 75%;
-	align-content: center;
-	
-}
-
 h1 {
   padding-right: 35%;
   color: white;
 }
 
-#Title {
-	font-size: 48px;
-}
 #heading{
 	font-size: 48px;
 	align-content: center;
 	padding-left: 35%;
 }
 
-#Intro {
+#intro {
 	padding-top: 5%;
 	padding-right: 0px;
 	
 }
-#list{
+.list{
 	color:#fcff56;
 	align-content: center;
 }
@@ -38,10 +29,6 @@ h1 {
     width:1000px;
     margin:0 auto;
     text-align:left;
-}
-
-.blanktext{
-	color:black;
 }
 
 .navBar {
@@ -55,7 +42,7 @@ h1 {
 	
 }
 
-.button {
+.navBar button {
 	background-color: #064489; /* Scheme blue */
     border: none;
     color: white;
@@ -71,7 +58,7 @@ h1 {
 	border: 1px solid #064489;
 }
 
-.button:hover {
+.navBar button:hover {
 	background-color: white;
 	color: black;
 	border: 1px solid white;
