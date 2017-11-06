@@ -7,11 +7,13 @@ body {
 
 h1 {
   padding-right: 35%;
-  color: white;
+  color: #E0E0E0;
+  font-size: 36px;
 }
 
 #heading{
 	font-size: 48px;
+	color: white;
 	align-content: center;
 	padding-left: 35%;
 }
@@ -22,7 +24,8 @@ h1 {
 	
 }
 .list{
-	color:#fcff56;
+	font-size: 24px;
+	color:#00C080;
 	align-content: center;
 }
 .center{
