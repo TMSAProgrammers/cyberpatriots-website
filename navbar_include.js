@@ -5,7 +5,7 @@ document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"CSS/navbar.css
 document.write(
     "<!-- Navbar -->" +
     "<div id=\"navbar\">" +
-        "<a href=\"index.html\">" +
+        "<a href=\"home.html\">" +
             "<button>Home</button>" +
         "</a>" +
         "<a href=\"calendar.html\">" +
