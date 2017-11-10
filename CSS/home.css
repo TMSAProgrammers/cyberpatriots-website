@@ -15,7 +15,7 @@ body {
 #payload{
 	color: white;
 	font-size: 20px;
-	padding-top: 20%;
+	padding-top: 10%;
 	margin-top: auto;
 }
 
@@ -31,7 +31,7 @@ Start of specific items
 	float: left;
 	padding-top:20px;
 	padding-left:0px;
-	margin-left:20%;
+	margin-left:17%;
 	zoom: 75%;
 }
 
@@ -52,12 +52,16 @@ h1 {
 	font-size: 48px;
 }
 #heading{
+	left: 50%;
+	right: 50%;
 	padding-top:7%;
 	font-size: 50px;
 }
 
 #Intro {
 	padding-top: 5%;
+	left: 50%;
+	right: 50%;
 	padding-bottom: 15%;
 	padding-right: 0px;
 }

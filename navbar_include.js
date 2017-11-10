@@ -21,4 +21,6 @@ document.write(
             "<button onclick=\"snackbar()\">Blog</button>" +
         "</a>" +
         "<div id=\"snackbar\">This has yet to be completed</div>" +
+
+		
     "</div>");
