@@ -2,66 +2,60 @@
 Start of generic items
 */
 body {
-	background-color: #252525;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: white;
-}
-#aes_div {
-	color: white;
-	border-bottom: solid;
+    background-color: #252525;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
 }
 
-#payload{
-	color: white;
-	font-size: 20px;
-	padding-top: 10%;
-	margin-top: auto;
+#payload {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    /*margin-top: 0px;*/
+    text-align: center;
 }
 
 /*
 Start of specific items
 */
-.center {
-    margin: auto;
-    width: 60%;
-    padding: 20px;
-}
-#logoImage {
-	float: left;
-	padding-top:20px;
-	padding-left:0px;
-	margin-left:17%;
-	zoom: 75%;
+
+#payload #logoImage {
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+    margin-left: 17%;
+    zoom: 75%;
 }
 
-h1 {
-  float:right;
-  padding-right: 35%;
-  color: white;
+#payload h1 {
+    float: right;
+    padding-right: 35%;
+    color: white;
 }
 
-#borderLine {
+#payload #borderLine {
     border-bottom: solid;
     color: white;
-	position: fixed;
-	margin-top: 1%;
+    position: fixed;
+    margin-top: 1%;
 }
 
-#title {
-	font-size: 48px;
-}
-#heading{
-	left: 50%;
-	right: 50%;
-	padding-top:7%;
-	font-size: 50px;
+#payload #title {
+    font-size: 48px;
 }
 
-#Intro {
-	padding-top: 5%;
-	left: 50%;
-	right: 50%;
-	padding-bottom: 15%;
-	padding-right: 0px;
+#payload #heading {
+    left: 50%;
+    right: 50%;
+    padding-top: 7%;
+    font-size: 50px;
+}
+
+#payload #intro {
+    padding-top: 5%;
+    left: 50%;
+    right: 50%;
+    padding-bottom: 15%;
+    padding-right: 0px;
 }

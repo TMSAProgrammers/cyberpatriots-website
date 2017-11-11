@@ -2,91 +2,68 @@
 Start of generic items
 */
 body {
-	background-color: white;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: black;
-}
-#payload{
-	color: #064489;
-	font-size: 20px;
-	padding-top: 10%;
-	margin-top: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
 }
 
 /*
 Start of specific items
 */
-.center {
+#payload .center {
     margin: auto;
     width: 60%;
     padding: 20px;
 }
-#logoImage {
-	float: left;
-	padding-top:20px;
-	padding-left:0px;
-	margin-left:20%;
-	zoom: 75%;
+
+#payload h1 {
+    float: right;
+    padding-right: 35%;
+    color: black;
 }
 
-h1 {
-  float:right;
-  padding-right: 35%;
-  color: black;
+#payload #intro-heading {
+    font-size: 50px;
 }
 
-#borderLine {
-    border-bottom: solid;
+#payload #intro {
+    align-content: center;
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#payload #quicklinks-heading {
+    height: 80px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#payload #drivefolder {
     color: white;
-	position: fixed;
-	margin-top: 1%;
+    align-content: center;
+    align-self: center;
+    padding-top: 10px;
+    text-align: center;
+
 }
 
-#title {
-	font-size: 48px;
-}
-#heading{
-	font-size: 50px;
-}
-
-#Intro {
-	align-content: center;
-	padding-top:150px;
-	padding-right: 150px;
-	padding-bottom: 150px;
-}
-
-.heading{
-	height: 80px;
-	margin-top:100px;
+#payload #quicklinks {
+    position: -webkit-sticky;
+    top: 0px;
+    position: sticky;
+    background-color: #064489;
+    width: 100%;
+    left: 0px;
+    height: 80px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-
-
-.drivefolder{
-	color: white;
-	align-content: center;
-	align-self: center;
-	padding-top: 10px;
-	
-	
-}
-.blanktext{
-	color:white;
-}
-.quicklinks {
-	position: -webkit-sticky;
-	top: 0px;
-	position: sticky;
-	background-color: #064489;
-	width: 100%;
-	left:0px;
-	height: 80px;
-	margin-bottom: 150px;
-	margin-top:10px;
-}
-.button {
+#payload #quicklinks button {
     background-color: #064489; /* Scheme blue*/
     border: none;
     color: white;
@@ -101,7 +78,7 @@ h1 {
     border: 1px solid #064489;
 }
 
-.button:hover {
+#payload #quicklinks button:hover {
     background-color: white;
     color: black;
     border: 1px solid white;

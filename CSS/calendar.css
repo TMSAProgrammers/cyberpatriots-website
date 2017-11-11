@@ -1,42 +1,37 @@
 body {
-	background-color: #252525;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: white;
+    background-color: #252525;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
 }
 
-#logoImage {
-	zoom: 75%;
-	align-content: center;
-	
+#payload h1 {
+    padding-right: 35%;
+    color: white;
 }
 
-h1 {
-  padding-right: 35%;
-  color: white;
+#payload #calendar {
+    align-content: center;
+    align-self: center;
+    padding-top: 10px;
+
 }
 
-#calendar{
-	align-content: center;
-	align-self: center;
-	padding-top: 10px;
-	
+#payload #heading {
+    font-size: 48px;
+    align-content: center;
+    padding-left: 35%;
 }
 
-#Title {
-	font-size: 48px;
-}
-#heading{
-	font-size: 48px;
-	align-content: center;
-	padding-left: 35%;
+#payload #intro {
+    padding-top: 5%;
+    padding-right: 0px;
 }
 
-#Intro {
-	padding-top: 5%;
-	padding-right: 0px;
+#payload .blanktext {
+    color: black;
 }
 
-.blanktext{
-	color:black;
+#payload #main {
+    text-align: center;
 }
