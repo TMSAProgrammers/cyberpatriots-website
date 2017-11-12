@@ -1,5 +1,5 @@
 // Include stylesheet
-document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"CSS/navbar.css\">");
+document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"CSS/default.css\">");
 
 // Include navbar
 document.write(
@@ -24,3 +24,14 @@ document.write(
 
 		
     "</div>");
+
+function snackbar() {
+    // Get the snackbar DIV ew
+    var x = document.getElementById("snackbar");
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
