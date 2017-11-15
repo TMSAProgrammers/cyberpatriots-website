@@ -7,13 +7,13 @@
     align-content: center;
     align-self: center;
     padding-top: 10px;
-
 }
 
 #payload #heading {
     font-size: 48px;
     align-content: center;
     padding-left: 35%;
+    margin-top: 100px;
 }
 
 #payload #intro {
