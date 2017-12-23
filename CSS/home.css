@@ -1,15 +1,7 @@
-/*
-Start of generic items
-*/
-
-/*
-Start of specific items
-*/
-
 #payload #logoImage {
     float: left;
     padding-top: 20px;
-    padding-left: 0px;
+    padding-left: 0;
     margin-left: 17%;
     zoom: 75%;
 }
@@ -20,28 +12,10 @@ Start of specific items
     color: white;
 }
 
-#payload #borderLine {
-    border-bottom: solid;
-    color: white;
-    position: fixed;
-    margin-top: 1%;
-}
-
-#payload #title {
-    font-size: 48px;
-}
-
-#payload #heading {
-    left: 50%;
-    right: 50%;
-    padding-top: 7%;
-    font-size: 50px;
-}
-
 #payload #intro {
     padding-top: 5%;
     left: 50%;
     right: 50%;
     padding-bottom: 15%;
-    padding-right: 0px;
+    padding-right: 0;
 }

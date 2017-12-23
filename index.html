@@ -14,8 +14,6 @@
 
         <!-- No navbar or payload div, not yet authorized!-->
 
-        <div class="body"></div>
-        <div class="grad"></div>
         <div class="header">
             <div>Tmsa<span>CyberPatriots</span></div>
         </div>
@@ -30,14 +28,11 @@
         </form>
 
         <script>
-            function check(form)
-            {
-                if(form.userid.value == "tmsa" && form.pswrd.value == "cyberpatriots")
-                {
+            function check(form) {
+                if (form.userid.value == "tmsa" && form.pswrd.value == "cyberpatriots") {
                     window.location.replace("home.html");
                 }
-                else
-                {
+                else {
                     alert("Wrong login, please try again.");
                 }
             }

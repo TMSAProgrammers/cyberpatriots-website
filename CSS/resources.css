@@ -1,20 +1,8 @@
-/*
-Start of generic items
-*/
 body {
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     color: black;
-}
-
-/*
-Start of specific items
-*/
-#payload .center {
-    margin: auto;
-    width: 60%;
-    padding: 20px;
 }
 
 #payload h1 {
@@ -34,7 +22,7 @@ Start of specific items
 
 #payload #quicklinks {
     width: 100%;
-    left: 0px;
+    left: 0;
     height: 80px;
     margin-bottom: 150px;
     margin-top: -20px;
